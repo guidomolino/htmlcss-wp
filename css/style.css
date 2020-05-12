@@ -58,6 +58,7 @@ nav{
 
 .nav-button:hover{
   cursor:pointer;
+  text-decoration: underline;
 }
 
 /* -------CENTRO PAGINA-------- */
