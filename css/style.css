@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/background.png);
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+#header-image{
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  border:15px solid white;
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+#header-text{
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 145px;
+}
+
+nav{
+  background-color: grey;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.nav-button{
+  margin: 20px;
+}
+
+/* -------CENTRO PAGINA-------- */
+
+.container1{
+  margin-top: 20px;
+}
+
+.container1::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+aside{
+  width: 20%;
+}
+
+main{
+  float: left;
+  width: 46%;
+  margin: 0 5%;
+  background-color: white;
+  padding: 20px 2%;
+  border-radius: 20px;
+}
+
+.col-l{
+  float: left;
+}
+
+.col-r{
+  float: right;
+}
+
+
+div [class^="widget"]{
+  float: none;
+  padding: 20px 10%;
+  background-color: white;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+/* ------TEXT SETTINGS------- */
+
+a{
+  display: inline-block;
+  margin-bottom: 15px;
+  color: green;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  margin-bottom: 26px;
+  font-size: 30px;
+  color: rgb(33, 22, 4);
+}
+
+/* -------------------------- */
+
+footer{
+  background-color: white;
+  text-align: center;
+}
